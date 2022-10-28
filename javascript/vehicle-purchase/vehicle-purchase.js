@@ -25,7 +25,7 @@ export function needsLicense(kind) {
 export function chooseVehicle(option1, option2) {
   return `${
     option1 < option2 ? option1 : option2
-  } tis clearly the better choice.`;
+  } is clearly the better choice.`;
 }
 
 /**
